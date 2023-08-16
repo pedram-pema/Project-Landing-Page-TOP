@@ -58,7 +58,7 @@ a {
 
 .main-title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .hero-text {
@@ -70,7 +70,41 @@ a {
     background-color: #3882f6;
     padding: 14px 25px;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 18px;
     border-radius: 15px;
+}
+
+/* SECOND SECTION STYLES */
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 330px;
+    margin-bottom: 125px;
+}
+
+.info {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+.item-pic {
+    border: 5px #3882f6 solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
