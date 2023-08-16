@@ -133,3 +133,37 @@ body {
     font-weight: bold;
     align-self: flex-end
 }
+
+/* FOURTH SECTION STYLES */
+
+.blue-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    border-radius: 10px;
+    color: white;
+}
+
+.fourth-section {
+    padding: 90px 250px;
+}
+
+.cat-title {
+    font-weight: bold;
+}
+
+.cat-text {
+    font-size: 16px;
+}
+
+button.cat-button {
+    background-color: transparent;
+    color: white;
+    border: 3px white solid;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    align-self: flex-end;
+}
