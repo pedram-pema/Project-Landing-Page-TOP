@@ -49,16 +49,21 @@ a {
     display: flex;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .main-title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 .hero-text {
     font-size: 18px;
     padding-right: 50px;
-    margin-bottom: 15px;
 }
 
 .sign-up {
